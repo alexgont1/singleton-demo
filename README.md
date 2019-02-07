@@ -1,2 +1,2 @@
 # singleton-demo
-ROR - singleton-demo
+ROR - singleton-demo project
