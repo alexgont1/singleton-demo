@@ -1,3 +1,3 @@
 require './logger'
 
-Logger.instance.log_something 'SUPER TEST'
+Logger.instance.log_something 'SUPER SINGLETON TEST'
