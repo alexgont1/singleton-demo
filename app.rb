@@ -23,11 +23,15 @@ class Logger
 	def log_something wat
 		@F.puts wat
 	end
+
+	#block 'new' for class (outside)
+	private_class_method :new
 end
 
 Logger.say_something
 Logger.instance.log_something 'test1'
 Logger.instance.log_something 'test2'
 
-logger = Logger.new
-logger.log_something 'hey!'
+#doesn't work anymore
+# logger = Logger.new
+# logger.log_something 'hey!'
