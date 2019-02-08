@@ -4,13 +4,9 @@ class Logger
 		@F = File.open 'log.txt', 'a'
 	end
 
-	@@x = nil
+	@@x = Logger.new
 
 	def self.instance
-		if @@x == nil
-			@@x = Logger.new
-		end
-
 		@@x
 	end
 
